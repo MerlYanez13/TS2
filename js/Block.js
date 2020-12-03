@@ -30,4 +30,9 @@ class Block{
         }
         
       }
+      score(){
+        if(this.visibility<20&&this.visibility>9){
+          score++;
+        }
+      }
 }
